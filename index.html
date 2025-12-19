@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cappu Gaming - E-Spor Platformu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Cappu Gaming</h1>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#anasayfa">Anasayfa</a></li>
+                <li><a href="#takimlar">Takımlar</a></li>
+                <li><a href="#turnuvalar">Turnuvalar</a></li>
+                <li><a href="#maclar">Maçlar</a></li>
+                <li><a href="#haberler">Haberler</a></li>
+                <li><a href="#takim-olustur">Takım Oluştur</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="anasayfa">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">E-Spor Dünyasına Hoş Geldiniz</h1>
+            <p class="hero-subtitle">En iyi takımları izleyin, turnuvaları takip edin ve e-spor haberlerini kaçırmayın</p>
+            <div class="hero-buttons">
+                <a href="#maclar" class="btn btn-primary">Canlı Maçlar</a>
+                <a href="#turnuvalar" class="btn btn-secondary">Turnuvalar</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Featured Matches -->
+    <section class="matches" id="maclar">
+        <div class="container">
+            <h2 class="section-title">Öne Çıkan Maçlar</h2>
+            <div class="matches-grid">
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-status live">CANLI</span>
+                        <span class="match-game">CS:GO</span>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team">
+                            <img src="https://via.placeholder.com/60" alt="Team 1" class="team-logo">
+                            <h3>Furia Esports</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://via.placeholder.com/60" alt="Team 2" class="team-logo">
+                            <h3>Natus Vincere</h3>
+                        </div>
+                    </div>
+                    <div class="match-score">
+                        <span>2</span>
+                        <span>-</span>
+                        <span>1</span>
+                    </div>
+                    <div class="match-footer">
+                        <span>15:00</span>
+                        <a href="#" class="watch-btn">İzle</a>
+                    </div>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-status upcoming">YAKINDA</span>
+                        <span class="match-game">Valorant</span>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team">
+                            <img src="https://via.placeholder.com/60" alt="Team 1" class="team-logo">
+                            <h3>Sentinels</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://via.placeholder.com/60" alt="Team 2" class="team-logo">
+                            <h3>Fnatic</h3>
+                        </div>
+                    </div>
+                    <div class="match-time">
+                        <span>20:00</span>
+                    </div>
+                    <div class="match-footer">
+                        <span>Bugün</span>
+                        <a href="#" class="watch-btn">Hatırlat</a>
+                    </div>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-status upcoming">YAKINDA</span>
+                        <span class="match-game">League of Legends</span>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team">
+                            <img src="https://via.placeholder.com/60" alt="Team 1" class="team-logo">
+                            <h3>T1</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://via.placeholder.com/60" alt="Team 2" class="team-logo">
+                            <h3>G2 Esports</h3>
+                        </div>
+                    </div>
+                    <div class="match-time">
+                        <span>22:00</span>
+                    </div>
+                    <div class="match-footer">
+                        <span>Yarın</span>
+                        <a href="#" class="watch-btn">Hatırlat</a>
+                    </div>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-status upcoming">YAKINDA</span>
+                        <span class="match-game">PUBG</span>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team">
+                            <img src="https://via.placeholder.com/60" alt="Team 1" class="team-logo">
+                            <h3>Soniqs</h3>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team">
+                            <img src="https://via.placeholder.com/60" alt="Team 2" class="team-logo">
+                            <h3>FaZe Clan</h3>
+                        </div>
+                    </div>
+                    <div class="match-time">
+                        <span>18:00</span>
+                    </div>
+                    <div class="match-footer">
+                        <span>Bugün</span>
+                        <a href="#" class="watch-btn">Hatırlat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section class="teams" id="takimlar">
+        <div class="container">
+            <h2 class="section-title">Popüler Takımlar</h2>
+            <div class="teams-grid">
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="https://via.placeholder.com/120" alt="Team Logo" class="team-card-logo">
+                        <div class="team-rank">#1</div>
+                    </div>
+                    <h3>Natus Vincere</h3>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-label">Kazanma</span>
+                            <span class="stat-value">85%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oyun</span>
+                            <span class="stat-value">124</span>
+                        </div>
+                    </div>
+                    <div class="team-games">
+                        <span class="game-tag">CS:GO</span>
+                        <span class="game-tag">Valorant</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="https://via.placeholder.com/120" alt="Team Logo" class="team-card-logo">
+                        <div class="team-rank">#2</div>
+                    </div>
+                    <h3>G2 Esports</h3>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-label">Kazanma</span>
+                            <span class="stat-value">82%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oyun</span>
+                            <span class="stat-value">156</span>
+                        </div>
+                    </div>
+                    <div class="team-games">
+                        <span class="game-tag">League of Legends</span>
+                        <span class="game-tag">Valorant</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="https://via.placeholder.com/120" alt="Team Logo" class="team-card-logo">
+                        <div class="team-rank">#3</div>
+                    </div>
+                    <h3>Team Liquid</h3>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-label">Kazanma</span>
+                            <span class="stat-value">79%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oyun</span>
+                            <span class="stat-value">142</span>
+                        </div>
+                    </div>
+                    <div class="team-games">
+                        <span class="game-tag">Dota 2</span>
+                        <span class="game-tag">CS:GO</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="https://via.placeholder.com/120" alt="Team Logo" class="team-card-logo">
+                        <div class="team-rank">#4</div>
+                    </div>
+                    <h3>Fnatic</h3>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-label">Kazanma</span>
+                            <span class="stat-value">77%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oyun</span>
+                            <span class="stat-value">138</span>
+                        </div>
+                    </div>
+                    <div class="team-games">
+                        <span class="game-tag">Valorant</span>
+                        <span class="game-tag">CS:GO</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="https://via.placeholder.com/120" alt="Team Logo" class="team-card-logo">
+                        <div class="team-rank">#5</div>
+                    </div>
+                    <h3>T1</h3>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-label">Kazanma</span>
+                            <span class="stat-value">81%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oyun</span>
+                            <span class="stat-value">165</span>
+                        </div>
+                    </div>
+                    <div class="team-games">
+                        <span class="game-tag">League of Legends</span>
+                        <span class="game-tag">Valorant</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="https://via.placeholder.com/120" alt="Team Logo" class="team-card-logo">
+                        <div class="team-rank">#6</div>
+                    </div>
+                    <h3>Furia Esports</h3>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-label">Kazanma</span>
+                            <span class="stat-value">75%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oyun</span>
+                            <span class="stat-value">128</span>
+                        </div>
+                    </div>
+                    <div class="team-games">
+                        <span class="game-tag">CS:GO</span>
+                        <span class="game-tag">Valorant</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="https://via.placeholder.com/120" alt="Team Logo" class="team-card-logo">
+                        <div class="team-rank">#7</div>
+                    </div>
+                    <h3>Soniqs</h3>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-label">Kazanma</span>
+                            <span class="stat-value">83%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oyun</span>
+                            <span class="stat-value">112</span>
+                        </div>
+                    </div>
+                    <div class="team-games">
+                        <span class="game-tag">PUBG</span>
+                        <span class="game-tag">PUBG Mobile</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="https://via.placeholder.com/120" alt="Team Logo" class="team-card-logo">
+                        <div class="team-rank">#8</div>
+                    </div>
+                    <h3>Gen.G</h3>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-label">Kazanma</span>
+                            <span class="stat-value">78%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oyun</span>
+                            <span class="stat-value">145</span>
+                        </div>
+                    </div>
+                    <div class="team-games">
+                        <span class="game-tag">PUBG</span>
+                        <span class="game-tag">League of Legends</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tournaments Section -->
+    <section class="tournaments" id="turnuvalar">
+        <div class="container">
+            <h2 class="section-title">Aktif Turnuvalar</h2>
+            <div class="tournaments-grid">
+                <div class="tournament-card featured" data-tournament="csgo-champ">
+                    <div class="tournament-badge">ÖNE ÇIKAN</div>
+                    <div class="tournament-header">
+                        <h3>World Championship 2024</h3>
+                        <span class="tournament-game">CS:GO</span>
+                    </div>
+                    <div class="tournament-info">
+                        <div class="tournament-detail">
+                            <span class="detail-icon">🆓</span>
+                            <span>Ücretsiz Katılım</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="detail-icon">👥</span>
+                            <span>24 Takım</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="detail-icon">📅</span>
+                            <span>15-30 Ocak 2024</span>
+                        </div>
+                    </div>
+                    <a href="#" class="tournament-btn" data-tournament="csgo-champ">Detaylar</a>
+                </div>
+
+                <div class="tournament-card" data-tournament="valorant-champ">
+                    <div class="tournament-header">
+                        <h3>Valorant Champions</h3>
+                        <span class="tournament-game">Valorant</span>
+                    </div>
+                    <div class="tournament-info">
+                        <div class="tournament-detail">
+                            <span class="detail-icon">🆓</span>
+                            <span>Ücretsiz Katılım</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="detail-icon">👥</span>
+                            <span>16 Takım</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="detail-icon">📅</span>
+                            <span>20-28 Ocak 2024</span>
+                        </div>
+                    </div>
+                    <a href="#" class="tournament-btn" data-tournament="valorant-champ">Detaylar</a>
+                </div>
+
+                <div class="tournament-card" data-tournament="lol-champ">
+                    <div class="tournament-header">
+                        <h3>LoL World Championship</h3>
+                        <span class="tournament-game">League of Legends</span>
+                    </div>
+                    <div class="tournament-info">
+                        <div class="tournament-detail">
+                            <span class="detail-icon">🆓</span>
+                            <span>Ücretsiz Katılım</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="detail-icon">👥</span>
+                            <span>22 Takım</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="detail-icon">📅</span>
+                            <span>10-25 Şubat 2024</span>
+                        </div>
+                    </div>
+                    <a href="#" class="tournament-btn" data-tournament="lol-champ">Detaylar</a>
+                </div>
+
+                <div class="tournament-card" data-tournament="pubg-champ">
+                    <div class="tournament-header">
+                        <h3>PUBG Global Championship</h3>
+                        <span class="tournament-game">PUBG</span>
+                    </div>
+                    <div class="tournament-info">
+                        <div class="tournament-detail">
+                            <span class="detail-icon">🆓</span>
+                            <span>Ücretsiz Katılım</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="detail-icon">👥</span>
+                            <span>32 Takım</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="detail-icon">📅</span>
+                            <span>5-15 Şubat 2024</span>
+                        </div>
+                    </div>
+                    <a href="#" class="tournament-btn" data-tournament="pubg-champ">Detaylar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Registration Section -->
+    <section class="team-registration" id="takim-olustur">
+        <div class="container">
+            <h2 class="section-title">Kendi Takımını Oluştur</h2>
+            <p class="section-subtitle">E-spor dünyasına katıl! Kendi takımını oluştur ve turnuvalarda yarışmaya hazır ol.</p>
+            
+            <!-- Game Type Tabs -->
+            <div class="game-tabs-container">
+                <h3 class="game-tabs-title">Oyun Türünü Seçin</h3>
+                <div class="game-tabs" id="gameTabs">
+                    <button type="button" class="game-tab active" data-game="CS:GO">
+                        <span class="game-icon">🎯</span>
+                        <span>CS:GO</span>
+                    </button>
+                    <button type="button" class="game-tab" data-game="Valorant">
+                        <span class="game-icon">⚡</span>
+                        <span>Valorant</span>
+                    </button>
+                    <button type="button" class="game-tab" data-game="League of Legends">
+                        <span class="game-icon">⚔️</span>
+                        <span>LoL</span>
+                    </button>
+                    <button type="button" class="game-tab" data-game="PUBG">
+                        <span class="game-icon">🔫</span>
+                        <span>PUBG</span>
+                    </button>
+                    <button type="button" class="game-tab" data-game="PUBG Mobile">
+                        <span class="game-icon">📱</span>
+                        <span>PUBG Mobile</span>
+                    </button>
+                    <button type="button" class="game-tab" data-game="Dota 2">
+                        <span class="game-icon">⚔️</span>
+                        <span>Dota 2</span>
+                    </button>
+                    <button type="button" class="game-tab" data-game="Rocket League">
+                        <span class="game-icon">🚗</span>
+                        <span>Rocket League</span>
+                    </button>
+                    <button type="button" class="game-tab" data-game="FIFA">
+                        <span class="game-icon">⚽</span>
+                        <span>FIFA</span>
+                    </button>
+                </div>
+            </div>
+            
+            <form class="team-registration-form" id="teamRegistrationForm">
+                <!-- Hidden game type input -->
+                <input type="hidden" id="gameType" name="gameType" value="CS:GO" required>
+                
+                <!-- Team Basic Info -->
+                <div class="form-section">
+                    <h3 class="form-section-title">📋 Takım Bilgileri</h3>
+                    <div class="selected-game-badge" id="selectedGameBadge">
+                        <span>Seçili Oyun:</span>
+                        <span id="selectedGameName">CS:GO</span>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="teamName">Takım Adı <span class="required">*</span></label>
+                            <input type="text" id="teamName" name="teamName" placeholder="Takımınızın adını girin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="teamTag">Takım Tag (Kısa İsim) <span class="required">*</span></label>
+                            <input type="text" id="teamTag" name="teamTag" placeholder="Örn: CAPPU" maxlength="10" required>
+                            <small class="form-hint">Maksimum 10 karakter</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="foundedYear">Kuruluş Yılı</label>
+                            <input type="number" id="foundedYear" name="foundedYear" placeholder="2024" min="2000" max="2024">
+                        </div>
+                        <div class="form-group">
+                            <label for="teamCountry">Ülke</label>
+                            <input type="text" id="teamCountry" name="teamCountry" placeholder="Türkiye">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="teamDescription">Takım Açıklaması</label>
+                        <textarea id="teamDescription" name="teamDescription" rows="4" placeholder="Takımınız hakkında kısa bir açıklama yazın..."></textarea>
+                    </div>
+                </div>
+
+                <!-- Team Captain Info -->
+                <div class="form-section">
+                    <h3 class="form-section-title">👤 Takım Kaptanı Bilgileri</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="captainName">Ad Soyad <span class="required">*</span></label>
+                            <input type="text" id="captainName" name="captainName" placeholder="Adınız ve soyadınız" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="captainEmail">E-posta <span class="required">*</span></label>
+                            <input type="email" id="captainEmail" name="captainEmail" placeholder="ornek@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="captainPhone">Telefon <span class="required">*</span></label>
+                            <input type="tel" id="captainPhone" name="captainPhone" placeholder="+90 5XX XXX XX XX" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="captainAge">Yaş</label>
+                            <input type="number" id="captainAge" name="captainAge" placeholder="18" min="13" max="99">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="captainGameID">Oyunda Kullanıcı Adı/ID <span class="required">*</span></label>
+                        <input type="text" id="captainGameID" name="captainGameID" placeholder="Oyundaki kullanıcı adınız veya ID'niz" required>
+                    </div>
+                </div>
+
+                <!-- Team Members -->
+                <div class="form-section">
+                    <h3 class="form-section-title">🎮 Takım Üyeleri</h3>
+                    <p class="section-info">Takımınızın en az 4 üyesi olmalıdır (kaptan dahil).</p>
+                    <div id="teamMembersContainer">
+                        <!-- Member inputs will be added dynamically -->
+                    </div>
+                    <button type="button" class="btn btn-secondary" id="addMemberBtn">+ Oyuncu Ekle</button>
+                </div>
+
+                <!-- Social Media & Links -->
+                <div class="form-section">
+                    <h3 class="form-section-title">🔗 Sosyal Medya & Linkler</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="discord">Discord Sunucu Linki</label>
+                            <input type="url" id="discord" name="discord" placeholder="https://discord.gg/...">
+                        </div>
+                        <div class="form-group">
+                            <label for="twitter">Twitter/X Kullanıcı Adı</label>
+                            <input type="text" id="twitter" name="twitter" placeholder="@kullaniciadi">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="twitch">Twitch Kanalı</label>
+                            <input type="text" id="twitch" name="twitch" placeholder="twitch.tv/kullaniciadi">
+                        </div>
+                        <div class="form-group">
+                            <label for="website">Web Sitesi</label>
+                            <input type="url" id="website" name="website" placeholder="https://...">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terms & Submit -->
+                <div class="form-section">
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="termsAccepted" name="termsAccepted" required>
+                            <span>Kullanım koşullarını ve gizlilik politikasını okudum, kabul ediyorum. <span class="required">*</span></span>
+                        </label>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <span>Turnuvalar ve güncellemeler hakkında e-posta almak istiyorum.</span>
+                        </label>
+                    </div>
+                    <div class="form-actions">
+                        <button type="reset" class="btn btn-secondary">Temizle</button>
+                        <button type="submit" class="btn btn-primary">Takımı Oluştur</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news" id="haberler">
+        <div class="container">
+            <h2 class="section-title">Son Haberler</h2>
+            <div class="news-grid">
+                <article class="news-card featured-news">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/600x400" alt="News Image">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Turnuva</span>
+                        <h3>World Championship 2024 Grup Açıklamaları Yapıldı</h3>
+                        <p>Dünyanın en prestijli CS:GO turnuvasında gruplar belirlendi. 24 takım arasından şampiyonu bulmak için heyecanlı mücadele başlıyor...</p>
+                        <div class="news-meta">
+                            <span>2 saat önce</span>
+                            <a href="#" class="read-more">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Takım</span>
+                        <h3>G2 Esports Yeni Kadrosunu Açıkladı</h3>
+                        <p>G2 Esports, yeni sezon için kadro değişikliklerini duyurdu...</p>
+                        <div class="news-meta">
+                            <span>5 saat önce</span>
+                            <a href="#" class="read-more">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Oyun</span>
+                        <h3>Valorant Yeni Karakter Duyurusu</h3>
+                        <p>Riot Games, Valorant'ın yeni karakterini oyuncularla buluşturdu...</p>
+                        <div class="news-meta">
+                            <span>1 gün önce</span>
+                            <a href="#" class="read-more">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Transfer</span>
+                        <h3>Furia Esports Büyük Transfer Yaptı</h3>
+                        <p>Brezilya ekibi, dünya şampiyonu oyuncuyu kadrosuna kattı...</p>
+                        <div class="news-meta">
+                            <span>2 gün önce</span>
+                            <a href="#" class="read-more">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Turnuva</span>
+                        <h3>PUBG Global Championship 2024 Formatı Açıklandı</h3>
+                        <p>PUBG'nin en büyük turnuvası için format detayları ve ödül havuzu açıklandı. 32 takım kıyasıya mücadele edecek...</p>
+                        <div class="news-meta">
+                            <span>3 gün önce</span>
+                            <a href="#" class="read-more">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="iletisim">
+        <div class="container">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Bizimle İletişime Geçin</h3>
+                    <p>E-spor dünyası hakkında sorularınız, önerileriniz veya işbirliği teklifleriniz için bize ulaşabilirsiniz.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>info@cappugaming.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+90 (555) 123 45 67</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>İstanbul, Türkiye</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Discord</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Twitch</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Adınız" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="E-posta" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Konu" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cappu Gaming</h3>
+                    <p>E-spor dünyasının en güncel haberleri, maç sonuçları ve turnuva bilgileri.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="#anasayfa">Anasayfa</a></li>
+                        <li><a href="#takimlar">Takımlar</a></li>
+                        <li><a href="#turnuvalar">Turnuvalar</a></li>
+                        <li><a href="#maclar">Maçlar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Haberler</h4>
+                    <ul>
+                        <li><a href="#haberler">Son Haberler</a></li>
+                        <li><a href="#">Turnuvalar</a></li>
+                        <li><a href="#">Transferler</a></li>
+                        <li><a href="#">Röportajlar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Takip Edin</h4>
+                    <div class="footer-social">
+                        <a href="#">Discord</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Twitch</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cappu Gaming. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tournament Details Modal -->
+    <div class="tournament-modal" id="tournamentModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-header">
+                <span class="modal-game" id="modalGame"></span>
+                <h2 class="modal-title" id="modalTitle"></h2>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Turnuva Bilgileri</h3>
+                    <div class="modal-details-grid">
+                        <div class="modal-detail-item">
+                            <span class="modal-detail-icon">💰</span>
+                            <div>
+                                <span class="modal-detail-label">Toplam Ödül</span>
+                                <span class="modal-detail-value" id="modalPrize"></span>
+                            </div>
+                        </div>
+                        <div class="modal-detail-item">
+                            <span class="modal-detail-icon">👥</span>
+                            <div>
+                                <span class="modal-detail-label">Takım Sayısı</span>
+                                <span class="modal-detail-value" id="modalTeams"></span>
+                            </div>
+                        </div>
+                        <div class="modal-detail-item">
+                            <span class="modal-detail-icon">📅</span>
+                            <div>
+                                <span class="modal-detail-label">Tarih</span>
+                                <span class="modal-detail-value" id="modalDate"></span>
+                            </div>
+                        </div>
+                        <div class="modal-detail-item">
+                            <span class="modal-detail-icon">📍</span>
+                            <div>
+                                <span class="modal-detail-label">Lokasyon</span>
+                                <span class="modal-detail-value" id="modalLocation"></span>
+                            </div>
+                        </div>
+                        <div class="modal-detail-item">
+                            <span class="modal-detail-icon">🏆</span>
+                            <div>
+                                <span class="modal-detail-label">Format</span>
+                                <span class="modal-detail-value" id="modalFormat"></span>
+                            </div>
+                        </div>
+                        <div class="modal-detail-item">
+                            <span class="modal-detail-icon">📺</span>
+                            <div>
+                                <span class="modal-detail-label">Yayın</span>
+                                <span class="modal-detail-value" id="modalStream"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Turnuva Formatı</h3>
+                    <p class="modal-description" id="modalDescription"></p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Ödül Dağılımı</h3>
+                    <div class="prize-distribution" id="modalPrizeDistribution">
+                        <!-- Prize distribution will be inserted here -->
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Katılan Takımlar</h3>
+                    <div class="participating-teams" id="modalParticipatingTeams">
+                        <!-- Teams will be inserted here -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-secondary" id="modalStreamLink">Canlı Yayını İzle</a>
+                <a href="#" class="btn btn-primary" id="modalRegisterLink">Kayıt Ol</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
